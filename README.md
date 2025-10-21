@@ -74,8 +74,3 @@ Performance was evaluated using **accuracy**, **precision**, **recall**, and **F
 - **Kaan Arık** – Sakarya University of Applied Sciences  
 - **Arzu Sürekçi** – Sakarya University of Applied Sciences  
 - **Hidayet Hüda Kösal** – Sakarya University, Department of Mathematics  
-
----
-
-## 📝 License
-This project is released under the **MIT License**. You are free to use, modify, and distribute it with attribution.
