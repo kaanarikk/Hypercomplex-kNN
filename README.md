@@ -1,4 +1,4 @@
-# 🧮 Hypercomplex kNN
+# Hypercomplex kNN
 **A Dimension-Adaptive k-Nearest Neighbors Architecture Using Elliptic Hypercomplex Distance Metrics**
 
 ---
@@ -15,7 +15,7 @@ This repository provides:
 
 ---
 
-## ⚙️ Features
+## Features
 - ✅ **Elliptic Hypercomplex Metric**: Adaptive distance computation based on a tunable parameter *p < 0*  
 - 🧭 **Dimension-Adaptive Framework**: Works in 2D (complex), 4D (quaternion), and 8D (octonion) domains  
 - 🔍 **Metric Validation**: Proven metric properties for all n = 2ᵏ dimensions  
@@ -68,41 +68,6 @@ All experiments were conducted on **Google Colab** using:
 - NVIDIA T4 GPU (16 GB VRAM)
 
 Performance was evaluated using **accuracy**, **precision**, **recall**, and **F1-score**, along with confusion matrices for detailed analysis.
-
----
-
-## 📂 Repository Structure
-```
-├── hypercomplex_knn/
-│   ├── metrics.py          # Elliptic hypercomplex distance functions
-│   ├── algebra.py          # n-dimensional hypercomplex algebra definitions
-│   ├── model.py            # kNN classifier with hypercomplex metric
-│   └── utils.py            # helper and visualization functions
-├── examples/
-│   ├── demo.ipynb          # Example notebook with benchmark comparison
-│   └── datasets/           # Sample data for quick tests
-└── README.md
-```
-
----
-
-## 🚀 Usage
-```python
-from hypercomplex_knn import HypercomplexKNN
-
-model = HypercomplexKNN(k=5, p=-0.5, n_dim=4)
-model.fit(X_train, y_train)
-y_pred = model.predict(X_test)
-```
-
----
-
-## 📚 Citation
-If you use this work in your research, please cite:
-> **Arık, K., Sürekçi, A., & Kösal, H. H.**  
-> *A Dimension-Adaptive k-NN Architecture Using Elliptic Hypercomplex Numbers Distance Metrics.*  
-> Sakarya University of Applied Sciences, 2025.
-
 ---
 
 ## 🧠 Authors
